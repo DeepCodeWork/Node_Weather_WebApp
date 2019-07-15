@@ -1,8 +1,5 @@
-console.log("JS LOADING")
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
-
-
 const message_box_1 = document.querySelector('#box1')
 const message_box_2 = document.querySelector('#box2')
 
