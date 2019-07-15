@@ -1,5 +1,4 @@
 const request = require('request')
-const chalk = require('chalk')
 
 const geoLocation = (place,callback)=>{
     const geoUrl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' +encodeURIComponent(place)+ '.json?access_token=pk.eyJ1IjoibWFraW5nb3V0IiwiYSI6ImNqeHQ5MmxtNDAzY20zaHBmM3k5aGZweTMifQ.M5tACNbS7yVwA2r93-wWCg'

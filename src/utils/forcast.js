@@ -1,5 +1,4 @@
 const request = require('request')
-const chalk = require('chalk')
 
 const forcast = (latitude,longitude,place_name,callback)=>{
     const darkSky = 'https://api.darksky.net/forecast/4c799e075a3cd1c759c093e125fdc408/'+latitude+','+longitude
