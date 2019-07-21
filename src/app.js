@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is my first node project where i user express and 2 api i.e. darksky.net and geolocation.',
+        helpText: 'This is my first node project where i used express and 2 external api i.e. darksky.net and geolocation.',
         title: 'Help',
         name: 'Deep kumar'
     })
