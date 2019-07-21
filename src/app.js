@@ -24,14 +24,14 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'BBC Weather',
-        name: 'Kylie Jenner'
+        name: 'Deep kumar'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Kylie Jenner'
+        name: 'Deep kumar'
     })
 })
 
@@ -39,7 +39,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         helpText: 'This is some helpful text.',
         title: 'Help',
-        name: 'Kylie Jenner'
+        name: 'Deep kumar'
     })
 })
 
@@ -75,7 +75,7 @@ app.get('/weather', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Kylie Jenner',
+        name: 'Deep kumar',
         errorMessage: 'Help article not found.'
     })
 })
@@ -83,7 +83,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Kylie Jenner',
+        name: 'Deep kumar',
         errorMessage: 'Page not found.'
     })
 })
